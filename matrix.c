@@ -215,7 +215,7 @@ int fill_data(int **matrix, int row, int col)
     return 1;
 }
 
-/* matrix의 전치행렬을 구하고 출력 */
+/* matrix의 전치행렬을 구한다. */
 int transpose_matrix(int **matrix, int **matrix_t, int row, int col)
 {
     if (row <= 0 || col <= 0)
